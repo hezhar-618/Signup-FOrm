@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sign Up Form</title>
+</head>
+<body>
+    <form action="#">
+        <div>
+        <lable for="f-name">Nawi Yakam :</lable>
+        <input type="text" name="f-name" id="f-name">
+       </div>
+
+       <div>
+        <lable for="s-name">Nawi Dwam :</lable>
+        <input type="text" name="s-name" id="s-name">
+       </div>
+       
+       <div>
+        <lable for="age">Taman :</lable>
+        <input type="number" name="age" id="age">
+       </div>
+
+       <div>
+        <p>Ragaz</p>
+        <label for="male">Ner</label>
+        <input type="radio" class="gender" name="gender" value="ner">
+        <hr>
+        <label for="female">Me</label>
+        <input type="radio" class="gender" name="gender" value="Me">
+    </div>
+
+       <div>
+        <label for="xwendkar">xwendkar</label>
+        <input type="checkbox" name="xwendkar" id="student">
+       </div>
+
+       <div>
+           <label for="city">Shar</label>
+           <select name="city" id="city">
+               <option value="share halbzhera.....">share halbzhera....</option>
+               <option value="sulaimany">Sulaymani</option>
+               <option value="kalar">Kalar</option>
+               <option value="Hawler">Hawler</option>
+               <option value="karkuk">Karkuk</option>
+
+           </select>
+       </div>
+
+    <button id="button">Tomarkrdn</button>
+
+    </form>
+
+    <div id="infos">
+        <div>
+            <p>Naw:</p>
+            <p id="student-name"></p>
+        </div>
+        <div>
+            <p>Taman:</p>
+            <p id="student-age"></p>
+        </div>
+        <div>
+            <p>Ragaz:</p>
+            <p id="student-gender"></p>
+        </div>
+        <div>
+            <p>Esta Xwendkara ?</p>
+            <p id="is-student"></p>
+        </div>
+        <div>
+            <p>Shar:</p>
+            <p id="student-city"></p>
+        </div>
+    </div>
+    <script src="main.js" type="text/javascript"></script>
+
+</body>
+</html>
